@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>iPhone</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Design Capacity</string>
+			<key>get</key>
+			<string>getInternalDesignCapacity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Actual Capacity</string>
+			<key>get</key>
+			<string>getInternalActualCapacity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Charge Cycles</string>
+			<key>get</key>
+			<string>getInternalCycleCount</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Smart Battery Case</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Model</string>
+			<key>get</key>
+			<string>getExternalModel</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Design Capacity</string>
+			<key>get</key>
+			<string>getExternalDesignCapacity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Actual Capacity</string>
+			<key>get</key>
+			<string>getExternalActualCapacity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Charge Cycles</string>
+			<key>get</key>
+			<string>getExternalCycleCount</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>InfoGroup</string>
+			<key>footerText</key>
+			<string>Design Capacity: The milliampere hour (mAh) rating to which your battery was designed to provide.
+
+Actual Capacity: The actual milliampere hour rating your battery is currently able to provide. The capacity of a brand new battery may be significantly more or less than the Design Capacity. As charge cycles increase, the Actual Capacity decreases.
+
+Charge Cycles: The number of times the battery has been charged up, then discharged.
+
+Some data is provided by battery circuitry in real-time and may not be entirely accurate.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>HBQTAboutListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>ABOUT</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Quanta</string>
+</dict>
+</plist>

@@ -1,0 +1,13 @@
+Package: ws.hbang.quanta
+Name: Quanta (iOS 13)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Better Smart Battery Case support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Tweaks
+Icon: https://chariz.com/cdn/icon/quanta/icon@3x.png
+Depiction: https://repo.chariz.com/package/ws.hbang.quanta/
+Support: https://hashbang.productions/support/
+Tag: purpose::extension, compatible::ios13
